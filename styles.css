@@ -83,6 +83,16 @@ a { color: var(--text); text-decoration: none; }
 /* ============= INTRO ============= */
 .intro { margin-bottom: 64px; }
 
+.avatar {
+  width: 96px; height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--line);
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease;
+}
+.avatar:hover { border-color: var(--accent); }
+
 .eyebrow {
   font-size: 13px; font-weight: 500;
   color: var(--accent);
